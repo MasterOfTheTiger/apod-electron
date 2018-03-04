@@ -1,0 +1,22 @@
+{
+  "name": "apod-app",
+  "version": "1.0.0",
+  "description": "A simple electron app for the astronomy picture of the day",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/MasterOfTheTiger/apod-electron",
+  "keywords": [
+    "apod",
+    "astronomy",
+    "nasa",
+    "astronomy picture of the day",
+    "picture"
+  ],
+  "author": "MasterOfTheTiger",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.8.2"
+  }
+}

@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  text-align: justify;
+}
+#apod_img_id {
+  margin: 5px, 0px, 5px, 0px;
+  vertical-align: middle;
+  width: 98%;
+  height: 100%;
+}
+h1 {text-align:center;}
+#back {display: none;}
+#loader {
+  display: none;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+#internet {
+  display: none;
+  position: absolute;
+  top: 35%;
+  width: 94%;
+  text-align: center;
+}
+hr {
+  margin-bottom: 2px;
+  margin-top: 5px;
+  border: none;
+  border: 1px dashed #000;
+}
+p {width: 98%;}
+.arrow {size: 10%;}
+#apod_title {
+  font-family: Arial;
+  text-align: left;
+}
+a {color: #61dcf4;}
+.button {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  padding: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #efefef;
+  font-size: 13px;
+  font-family: arial;
+  border-width: thin;
+}
+.button:hover {
+  background-color: #d8d8d8;
+  cursor: default;
+}
+.button:active {
+  background-color: lightblue;
+  border-color: lightblue
+}
+#date {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  padding: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: 13px;
+  font-family: arial;
+  border-width: thin;
+  max-width: 90px;
+  font-size: 12px;
+  font-family: monospace;
+  text-align: center;
+}
+#share {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#shareOptions {
+  position: fixed;
+  top: 41px;
+  right: 7px;
+}
+.shareButton {
+  font-size: 250%;
+  padding: 6px;
+  width: 65px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+h3 {
+  margin-top: 0px;
+}
