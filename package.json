@@ -17,6 +17,6 @@
   "author": "MasterOfTheTiger",
   "license": "MIT",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "~1.8.4"
   }
 }
